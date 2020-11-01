@@ -1,9 +1,9 @@
 // graphql api url
-let url = 'http://localhost:8080/graphql';
+let url = 'https://beerbiceps2.adesignguy.co/graphql';
 
 // If we're running on Docker, use the WordPress container hostname instead of localhost.
 if (process.env.HOME === '/home/node') {
-  url = 'http://wp-headless:8080/graphql';
+  url = 'https://beerbiceps2.adesignguy.co/graphql';
 }
 const Config = {
   gqlUrl: url,
